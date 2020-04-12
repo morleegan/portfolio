@@ -1,0 +1,38 @@
+{
+  "name": "morleegan_web",
+  "version": "1.0.0",
+  "description": "just a place to display my resume and some of my hobbies",
+  "keywords": [
+    "gatsby",
+    "typescript"
+  ],
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby develop",
+    "format": "prettier --write \"**/*.{ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "type-check": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/morleegan/morleegan_web.git"
+  },
+  "homepage": "https://github.com/morleegan/morleegan_web#readme",
+  "author": "Morgan Peters",
+  "license": "MIT",
+  "dependencies": {
+    "gatsby": "^2.20.18",
+    "gatsby-plugin-typescript": "^2.3.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.4",
+    "tslint": "^6.1.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tsutils": "^3.17.1",
+    "typescript": "^3.8.3"
+  }
+}
