@@ -6,8 +6,9 @@ const Header = () => {
    * about me
    * projects
    * general
+   * blog
    */
-  return <div>this is a header</div>;
+  return <div><a href="hrhe">blog</a></div>;
 };
 
 export default Header;
