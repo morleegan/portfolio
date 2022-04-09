@@ -1,1 +1,18 @@
+.header-div {
+  position: absolute;
+  right: 0;
+  top: 0;
 
+  padding-top: 1rem;
+  padding-right: 1rem;
+
+  flex: 1;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+.header-nav-text {
+  padding-left: 0.5rem;
+  font-family: Heebo, sans-serif;
+  color: #768B9C;
+}

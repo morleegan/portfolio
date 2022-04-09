@@ -25,14 +25,10 @@ div {
   flex: 1;
 }
 
-.h1 {
+h1 {
   font-family: Heebo, sans-serif;
-  color: #000;
-  font-size: x-large;
-
-  flex: 1;
-  justify-content: center;
-  align-items: center;
+  color: #768B9C;
+  font-size: 5rem;
 }
 
 p {
@@ -42,6 +38,7 @@ p {
 
 a {
   color: #f2f2f2;
+  text-decoration: none;
 }
 
 .box {
@@ -50,6 +47,22 @@ a {
   align-content: flex-end;
 }
 
+.about-text {
+  font-size: 1.5rem;
+  color: #768B9C;
+  opacity: 0.5;
+}
+
+.about-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
 
 // Shout out to this https://gist.github.com/LibertysYarn/5655106
 

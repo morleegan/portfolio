@@ -23,6 +23,20 @@ List of work that needs to be accomplished within
     - I think travel bloggers can forget to talk about their own city
   - Italy
 - Tech
+  - creative coding... what is it, how do i do it 
+    - what is it?
+      - artistic coding blah
+    - artists that i am inspired by...
+      - italian artist i saw at art tech house()
+      - other ppl... i will find their names later
+    - media guides 
+      - who to follow + what to read 
+        - magazines 
+          - 
+        - creators @girlontiktokisaw @brandonwhatever @mitlabthing 
+    - coding languages 
+      - openFrameworks 
+      - etc
   - Why I took at sabadical and why you should too.
   - Finding my own place in the tech space 
   - Effective one on ones
