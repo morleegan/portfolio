@@ -1,14 +1,31 @@
 import React from "react";
-import "./styles.scss"
+import { Link } from "gatsby";
+
+import "./styles.scss";
+
+const LinkClass: React.FunctionComponent<{ to: string; title: string }> = ({
+  to,
+  title,
+}) => {
+  return (
+    <Link
+      className="header-nav-text"
+      activeClassName="header-nav-text-active"
+      to={to}
+    >
+      {title}
+    </Link>
+  );
+};
 
 const Header = () => {
-  // TODO add header that navigates to each page,
-  return (<div className="header-div">
-    <a className="header-nav-text" href="me">me</a>
-    <a className="header-nav-text" href="home">home</a>
-    <a className="header-nav-text" href="projects">projects</a>
-    <a className="header-nav-text" href="blog">blog</a>
-  </div>);
+  return (
+    <div className="header-div">
+      <LinkClass title="me" to="/me" />
+      <LinkClass title="home" to="/" />
+      <LinkClass title="blog" to="/blog" />
+    </div>
+  );
 };
 
 export default Header;
